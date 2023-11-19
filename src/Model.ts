@@ -39,3 +39,10 @@ export interface Pagination {
     prev_page_url?: string,
     total: number
 }
+
+export interface Cart {
+    id: number,
+    foto1: string,
+    nama_produk: string,
+    harga: string
+}
