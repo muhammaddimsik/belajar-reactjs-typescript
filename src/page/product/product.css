@@ -1,0 +1,66 @@
+.title {
+  color: white;
+}
+
+.card-product {
+  border: 1px solid #2d9596;
+  width: 202px;
+  margin: 10px;
+  background-color: #9ad0c2;
+}
+
+.image {
+  width: 200px;
+  height: 200px;
+}
+
+.description {
+  margin: 4px 8px;
+}
+
+.product-price {
+  color: #265073;
+  font-weight: bold;
+}
+
+.container-product {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.line-2 {
+  display: -webkit-box;
+  -webkit-line-clamp: 2;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+}
+
+.pagination {
+  margin: 20px 0;
+}
+
+.active {
+  background-color: #2d9596;
+  color: white;
+}
+
+.btn-number {
+  border: none;
+  padding: 4px 8px;
+  cursor: pointer;
+}
+
+.btn-prev {
+  border: none;
+  padding: 4px 8px;
+  margin-right: 4px;
+  cursor: pointer;
+}
+
+.btn-next {
+  border: none;
+  padding: 4px 8px;
+  margin-left: 4px;
+  cursor: pointer;
+}

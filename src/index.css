@@ -1,0 +1,69 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+*,
+body,
+html {
+  padding: 0px;
+  margin: 0px;
+  box-sizing: border-box;
+}
+
+.main {
+  text-align: center;
+  background-color: #265073;
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  padding: 50px 100px;
+}
+
+.search {
+  padding: 8px;
+  border: none;
+  font-size: 18px;
+}
+
+.title {
+  color: white;
+  margin-bottom: 20px;
+}
+
+.add-btn {
+  padding: 8px 20px;
+  margin-left: 2px;
+  border: none;
+  font-size: 18px;
+  cursor: pointer;
+  background-color: #2d9596;
+  color: white;
+  font-weight: 500;
+}
+
+.todo-list {
+  margin-top: 4px;
+}
+
+.single-todo {
+  background-color: #9ad0c2;
+  padding: 10px 8px;
+  margin-top: 2px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.todo-name {
+  font-size: 18px;
+}
+
+.todo-icon {
+  margin: 0px 2px;
+  cursor: pointer;
+}
+
+.todo-edit {
+  font-size: 14px;
+  border: none;
+  padding: 2px 4px;
+}
